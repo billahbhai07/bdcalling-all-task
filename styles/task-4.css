@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+    background: rgba(82, 195, 3, 1);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    
+}
+/* nav bar style start */
+.nav-conntainer{
+        background-color: #f1f1f1;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.nav-contain{
+    width: 90%;
+
+    margin: auto;
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-direction: row-reverse;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 100px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: semi-bold;
+    padding: 10px 20px; 
+    display: block;    
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: rgb(9, 255, 0);
+    color: rgb(0, 0, 0);
+}
+.nav-list a.active {
+    border-bottom: 3px solid black; 
+    padding-bottom: 10px;           
+}
+/* nav bar style end */
+
+
+/* hero section style start */
+.hero-section{
+    height: 800px;
+    background-image: url("../assets/task 4/Banner.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/* hero section style end */
+
+.sell-title{
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0 0 0;
+    font-weight: bold;
+    color: black;
+}
+.sell-description{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(141, 140, 140);
+}
+.sell-sectionn{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card > img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+}
+.price{
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.partner{
+        display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.best-sell{
+    margin-bottom: 100px;    
+}
+
+/* footer style start */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* footer style end */
